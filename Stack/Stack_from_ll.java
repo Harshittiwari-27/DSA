@@ -1,4 +1,4 @@
-package dsa.Stack;
+ package dsa.Stack;
 
 public class Stack_from_ll {
     static class Node
@@ -27,7 +27,7 @@ public class Stack_from_ll {
         // push 
         public static void  push(int data )
         {
-            Node newNode =new Node(data);
+            Node newNode =new Node(data); // ek stack ko jab ll me dalte hai to uska mtlbl hota hai aone data ko hata deba inplace of hea  d
             if(isEmpty())
             {
                 head=newNode;

@@ -1,4 +1,4 @@
-package dsa.arrrays;
+//package dsa.arrrays;
 public class backtracking {
     public static void changeArr(int arr[],int i,int val)
     {

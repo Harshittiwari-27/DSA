@@ -84,7 +84,13 @@ public void print()
     }
     System.out.println("null");
 }
+
+
+
                                       // inseritng the element in the middle of the linkedlist
+
+
+
 
 public void add(int idx,int data)   // Method to insert data at position idx.
 {
@@ -169,7 +175,9 @@ public  int Search(int key)
             return index;
         }
         temp=temp.next;
-        index++;
+        index++;while (ww) {
+            
+        }
     }
    return -1;
 }
@@ -294,7 +302,7 @@ public boolean checkPalindrome()
     // step 3 - check left half and right half
     while(right !=null)
     {
-        if(left.data != right.data)
+        if(left.data != right.data) 
         {
             return false;
         }

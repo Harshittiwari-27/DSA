@@ -57,6 +57,6 @@ public class StackB {
             s.pop();
            // System.out.println(Stack.list);  // shows remaining elements
         }
-    }
+    }   
     
 }

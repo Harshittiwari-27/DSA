@@ -41,7 +41,7 @@ class MyLinkedList {
     }
 }
 
-public class Main {
+public class well {
     public static void main(String[] args) {
         MyLinkedList list = new MyLinkedList(); // ✅ using your custom class
         list.addFirst(10);
